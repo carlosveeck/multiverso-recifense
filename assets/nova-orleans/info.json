@@ -1,7 +1,8 @@
 {
-  "titulo": "Baque no Mississippi",
-  "fusao": "Maracatu ✕ Jazz de Nova Orleans",
-  "instrumentos": "Alfaias, trompete, clarinete, tuba e pratos",
-  "imagem": "",
+  "titulo": "Lama do Bayou",
+  "cidade": "Nova Orleans",
+  "fusao": "Manguebeat ✕ Swamp Blues",
+  "instrumentos": "Alfaias, Slide Guitar Acústica, Gaita e Baixo Distorcido",
+  "imagem": "nova-orleans.jpg",
   "audio": "nova-orleans.mp3"
 }

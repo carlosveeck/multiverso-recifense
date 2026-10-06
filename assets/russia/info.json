@@ -1,7 +1,8 @@
 {
     "titulo": "Ciranda Siberiana",
+    "cidade": "Moscou",
     "fusao": "Ciranda ✕ Post-Punk Russo",
     "instrumentos": "Drum Machine, Baixo Sintético e Guitarras com Chorus",
-    "imagem": "russia.jpeg",
+    "imagem": "russia.jpg",
     "audio": "russia.mp3"
 }

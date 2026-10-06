@@ -60,6 +60,15 @@ body, html {
     text-transform: uppercase; letter-spacing: 1px;
 }
 
+/* Nova formatação adicionada para a Cidade */
+#np-cidade {
+    font-size: 20px;
+    color: #4db8ff;
+    margin-bottom: 12px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
 #np-fusao {
     font-size: 18px; color: #ddd; margin-bottom: 5px; font-style: italic;
 }

@@ -4,6 +4,7 @@ let indiceAtual = 0;
 const imgElemento = document.getElementById('imagem-fundo');
 const audioPlayer = document.getElementById('player-audio');
 const npTitulo = document.getElementById('np-titulo');
+const npCidade = document.getElementById('np-cidade'); // 1. Nova constante adicionada
 const npFusao = document.getElementById('np-fusao');
 const npInstrumentos = document.getElementById('np-instrumentos');
 const btnIniciar = document.getElementById('btn-iniciar');
@@ -25,6 +26,7 @@ const btnIniciar = document.getElementById('btn-iniciar');
                 img: `assets/${pasta}/${info.imagem}`,
                 audio: `assets/${pasta}/${info.audio}`,
                 titulo: info.titulo,
+                cidade: info.cidade, // 2. Nova linha para pegar a cidade do JSON
                 fusao: info.fusao,
                 instrumentos: info.instrumentos
             });
@@ -63,6 +65,7 @@ function atualizarTela() {
         audioPlayer.play();
 
         npTitulo.innerText = destino.titulo;
+        npCidade.innerText = destino.cidade; // 3. Nova linha para injetar o texto na tela
         npFusao.innerText = destino.fusao;
         npInstrumentos.innerText = destino.instrumentos;
 
